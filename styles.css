@@ -6,6 +6,7 @@ body {
     width: 100%;
     height: 100%;
 	background-size: cover;
+	color: #222
 }
   
 header {
@@ -13,15 +14,50 @@ header {
 }
 
 .window {
-	background-color: rgb(223, 221, 226);
-	color: rgb(36, 36, 36);
-	margin: 1em 20% 1em 20%;
-	padding: 0.5em;
-	text-align: center;
+	font-size: 16px;
+	background: #ece9d8;
+	padding-bottom: 3px;
+
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
 	box-shadow:
-	0 1px 1px rgba(0,0,0,0.25), 
-	0 2px 2px rgba(0,0,0,0.20), 
-	0 4px 4px rgba(0,0,0,0.15), 
-	0 8px 8px rgba(0,0,0,0.10),
-	0 16px 16px rgba(0,0,0,0.05);
+	inset -1px -1px #00138c,
+	inset 1px 1px #0831d9,
+	inset -2px -2px #001ea0,
+	inset 2px 2px #166aee,
+	inset -3px -3px #003bda,
+	inset 3px 3px #0855dd;
+
+	margin: 1em 20% 1em 20%;
 }
+
+.window-body {
+	margin: 8px;
+}
+
+.title-bar {
+	font-family: Trebuchet MS;
+	background: linear-gradient(180deg,#0997ff,#0053ee 8%,#0050ee 40%,#06f 88%,#06f 93%,#005bff 95%,#003dd7 96%,#003dd7);
+	padding: 3px 5px 3px 3px;
+	border-top: 1px solid #0831d9;
+	border-left: 1px solid #0831d9;
+	border-right: 1px solid #001ea0;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 7px;
+	font-size: 16px;
+	text-shadow: 1px 1px #0f1089;
+	height: 21px;
+}
+
+.title-bar-text {
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 0;
+	margin-right: 24px;
+	padding-left: 3px
+}
+
+.title-bar-controls {
+
+}
+
